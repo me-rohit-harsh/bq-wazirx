@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WazirX</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css"> -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+        integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!--<nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img style="width: 200px; position: absolute; top: 15px; left: 5.5%;"
+                src="images/Brand-studio.jpeg" alt=""></a>
+        <a class="navbar-brand" href="#"><img style="width: 150px; right: 40px; position: absolute; top: 10px;"
+                src="https://wazirx.com/static/media/wazirx-logo-blue.8f74de7a.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Articles">Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Videos">Videos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Podcasts">Podcast</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Crypto-Calculator">Crypto Calculator <span
+                            style="color:#fff; background-color: #26a17b;padding: 0 5px; border-radius: 100px;">new</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>-->
+
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand ps-0 pt-3 pb-3 d-none d-sm-block" href="#" style="width:150px;"><img
+                    src="images/bqbslogo.png" class="img-fluid" /></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img class="img-fluid" src="images/bar.png">
+            </button>
+            <a class="navbar-brand ps-0 pt-3 pb-3 d-block d-sm-none" href="#" style="width:130px;"><img
+                    src="images/bqbslogo.png" class="img-fluid" /></a>
+            <a class="navbar-brand waz-logo mx-auto d-block d-sm-none" href="#"><img style="width: 130px;"
+                    src="https://wazirx.com/static/media/wazirx-logo-blue.8f74de7a.png" alt="" class="img-fluid"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#articles">Articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#videos">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#podcasts">Podcast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tabs">Crypto Calculator <span
+                                style="color:#fff; background-color: #26a17b;padding: 0 5px; border-radius: 100px;">new</span></a>
+                    </li>
+
+            </div>
+            <a class="navbar-brand waz-logo p-3 d-none d-sm-block" href="#"><img style="width: 150px;"
+                    src="https://wazirx.com/static/media/wazirx-logo-blue.8f74de7a.png" alt="" class="img-fluid"></a>
+        </div>
+    </nav>
+
+
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 offset-lg-2 col-8 offset-2 future">
+                    <img src="images/crypto.png" class="img-fluid border-right pe-3">
+
+                </div>
+                <div class="col-lg-4 col-10 offset-1 offset-lg-0 takea">
+                    <h3 class="take-dive">Take a deep dive into the world of cryptocurrency
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Icons Grid-->
+
+    <section class="mt-5 mb-5 " id="main-head">
+        <div class="container">
+
+            <div class="row ">
+
+
+
+                <div class="col-md-7 col-12 slider">
+
+                    <div class="loop owl-carousel owl-theme">
+                        <div class="item">
+                            <div style="background: url(images/Worker.jpg);background-size:cover;border-radius:5px;">
+                                <!-- <img class="img-fluid" src="images/Worker.jpeg" alt="" > -->
+                                <div class="article-main">
+                                    <p>ARTICLE</p>
+                                    <h2>Crypto Adoption Will Boost Job Creation In India</h2>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background: url(images/stop-limit.jpg);background-size:cover;border-radius:5px;background-position:32% 100%;">
+                                <!-- <img class="img-fluid" src="images/Worker.jpeg" alt="" > -->
+                                <div class="article-main">
+                                    <p>VIDEO</p>
+                                    <h2>How to place a Stop Limit order on WazirX?</h2>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                style="background: url(images/guidelines.jpg);background-size:cover;border-radius:5px;background-position:32% 100%;">
+                                <!-- <img class="img-fluid" src="images/Worker.jpeg" alt="" > -->
+                                <div class="article-main">
+                                    <p>VIDEO</p>
+                                    <h2>Guidelines or full-fledged regulations for crypto</h2>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--<div style="background: url(images/Worker.jpg);background-size:cover;border-radius:5px;">
+                     <img class="img-fluid" src="images/Worker.jpeg" alt="" > -->
+                    <!-- <div class="article-main">
+                            <p>ARTICLE</p>
+                            <h2>Crypto Adoption Will Boost Job Creation In India</h2>
+                        </div>
+
+                    </div>-->
+                </div>
+                <div class="col-md-5 col-12 mspace slider">
+                    <div class="loop owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="row mb-4">
+                                <div class="col-md-4 col-4 side-img">
+                                    <img src="images/stop-limit.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8 col-8 side-content">
+                                    <p>VIDEO</p>
+                                    <h3>How to place a Stop Limit order on WazirX? </h3>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row mb-4">
+                                <div class="col-md-4 col-4 side-img">
+                                    <img src="images/guidelines.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8 col-8 side-content">
+                                    <p>VIDEO</p>
+                                    <h3>Guidelines or full-fledged regulations for crypto</h3>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row mb-4">
+                                <div class="col-md-4 col-4 side-img">
+                                    <img src="images/worker.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8 col-8 side-content">
+                                    <p>ARTICLE</p>
+                                    <h3>Crypto Adoption Will Boost Job Creation In India</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="loop owl-carousel owl-theme">
+
+                        <div class="item">
+                            <div class="row mb-4">
+                                <div class="col-md-4 col-4 side-img">
+                                    <img src="images/guidelines.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8 col-8 side-content">
+                                    <p>VIDEO</p>
+                                    <h3>Guidelines or full-fledged regulations for crypto</h3>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row mb-4">
+                                <div class="col-md-4 col-4 side-img">
+                                    <img src="images/worker.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8 col-8 side-content">
+                                    <p>ARTICLE</p>
+                                    <h3>Crypto Adoption Will Boost Job Creation In India</h3>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="row mb-4">
+                                <div class="col-md-4 col-4 side-img">
+                                    <img src="images/stop-limit.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-8 col-8 side-content">
+                                    <p>VIDEO</p>
+                                    <h3>How to place a Stop Limit order on WazirX? </h3>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4 col-4">
+                            <img src="images/BTC.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-8 col-8 side-content">
+                            <a href="#tabs">
+                                <p class="crypt-cal">Crypto Calculator</p>
+                            </a>
+                            <h3>Calculate returns on your crypto investment </h3>
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <section id="signup">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-6 col-12 startcrypto pt-3">
+                    <div class="row">
+                        <div class="col-md-9 col-7">
+                            <p class="line-start">
+                                Start your <span style="color: #3067f0;">crypto</span> investment journey today
+
+                            </p>
+                        </div>
+                        <div class="col-md-3 col-5">
+                            <p class="line-start">
+                                <a type="button" class="btn btn-primary">Sign Up Now</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <section class="pt-5 pb-5 " id="articles">
+
+        <div class="container">
+            <div class="row ">
+                <h2><i class="fas fa-file-alt"></i>
+                    Articles</h2>
+            </div>
+            <div class="row">
+
+                <div class="loop owl-carousel owl-theme">
+                    <div class="item">
+                        <a
+                            href="https://www.bloombergquint.com/bq-brand-studio/crypto-adoption-will-boost-job-creation-in-india">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/Title1.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">Crypto Adoption Will Boost Job Creation In India</h5>
+                                    <!--<a
+                                    href="https://www.bloombergquint.com/bq-brand-studio/crypto-adoption-will-boost-job-creation-in-india">
+                                    <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></p>
+                                </a>-->
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a
+                            href="https://www.bloombergquint.com/bq-brand-studio/nfts-from-wazirx-are-a-smart-investing-decision">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/Title2.jpg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">NFTs From WazirX Are A Smart Investing Decision</h5>
+                                    <!-- <a
+                                    href="https://www.bloombergquint.com/bq-brand-studio/nfts-from-wazirx-are-a-smart-investing-decision">
+                                    <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></p>
+                                </a> -->
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://wazirx.com/blog/digital-money-for-the-digital-age-what-is-usd-coin/">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/Video4.jpeg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">Digital Money for the Digital Age – What is USD Coin?</h5>
+                                    <!--   <a href="https://wazirx.com/blog/digital-money-for-the-digital-age-what-is-usd-coin/">
+                                    <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></p>
+                                </a> -->
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://wazirx.com/blog/top-things-you-can-do-if-you-hold-bitcoins-in-india/">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/Top-things-you-can-do-if-you-hold-Bitcoins-in-India-WazirX.png"
+                                        class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">4 Things You Can do if You Hold Bitcoins in India</h5>
+                                    <!-- a href="https://wazirx.com/blog/top-things-you-can-do-if-you-hold-bitcoins-in-india/">
+                                    <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></p>
+                                </a> -->
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="item">
+                        <a href="https://wazirx.com/blog/the-climate-controversy-around-nfts/">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/climate.jpeg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">The climate controversy around NFTs</h5>
+                                    <!-- <a href="https://wazirx.com/blog/the-climate-controversy-around-nfts/">
+                                    <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></p>
+                                </a> -->
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://wazirx.com/blog/matic-made-in-india/">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/matic.jpeg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">MATIC: Made In <br>India</h5>
+
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://wazirx.com/blog/taking-crypto-to-the-masses/">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/masses.jpeg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">Taking Crypto to the <br>Masses</h5>
+                                    <!-- <a href="https://wazirx.com/blog/taking-crypto-to-the-masses/">
+                                    <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></p>
+                                </a> -->
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="https://wazirx.com/blog/why-is-online-privacy-important/">
+                            <div class="card">
+                                <div class="card-img">
+                                    <img src="images/privacy.jpeg" class="img-fluid">
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-text">Why Is Online Privacy <br>Important? </h5>
+
+                                </div>
+
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5" id="videos">
+
+        <div class="container">
+            <div class="row ">
+                <h2><i class="fas fa-play"></i>
+                    Videos</h2>
+            </div>
+            <div class="row">
+
+                <div class="loop owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="https://www.bloombergquint.com/videos?id=613764f00d73f57372564ad8"
+                                    target="_blank"><img src="images/boost.jpg" class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">How crypto adoption will boost job creation in India</h5>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="https://www.youtube.com/watch?v=pMTIUSOPru0&t=127s" data-fancybox="Video"
+                                    data-width="640" data-height="360"><img src="images/stop-limit.jpg"
+                                        class="img-fluid"></a>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">How to place a Stop Limit order on WazirX? </h5>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="https://www.youtube.com/watch?v=VDqgyf3gaGM&t=3s" data-fancybox="Video"
+                                    data-width="640" data-height="360"><img src="images/digital-assets.jpg"
+                                        class="img-fluid"></a>
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">Opportunities and challenges in the Indian crypto market</h5>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <a href="https://www.youtube.com/watch?v=5pAZ26p3ISI" data-fancybox="Video"
+                                    data-width="640" data-height="360"><img src="images/guidelines.jpg"
+                                        class="img-fluid"></a>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">Guidelines or full-fledged regulations for crypto</h5>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5" id="podcasts">
+
+        <div class="container">
+            <div class="row ">
+                <h2><i class="fas fa-microphone"></i>
+                    Podcasts</h2>
+            </div>
+            <div class="row">
+
+                <div class="loop owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/Podcast1.jpeg" class="img-fluid">
+
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">Some quick example text to build on the card
+                                    title and make up the bulk of the
+                                    card's
+                                    content.</h5>
+                                <p class="mt-5 mb-0" style="margin-top: 0;"><span
+                                        class="card-arrow float-end">&#8594;</span></>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/Podcast2.jpeg" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">Some quick example text to build on the card
+                                    title and make up the bulk of the
+                                    card's
+                                    content.</h5>
+                                <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/podcast3.jpeg" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">Some quick example text to build on the card
+                                    title and make up the bulk of the
+                                    card's
+                                    content.</h5>
+                                <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="images/podcats4.jpeg" class="img-fluid">
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-text">Some quick example text to build on the card
+                                    title and make up the bulk of the
+                                    card's
+                                    content.</h5>
+                                <p class="mt-5 mb-0"><span class="card-arrow float-end">&#8594;</span></>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5" id="tabs" style="background: url(images/ifran-back.jpeg); border-top:4px solid #0d6efd;">
+
+        <div class="container">
+            <div class="row text-center">
+                <h2><span style="color: #3067f0;">Crypto</span>
+                    Currency</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-5 offset-md-3 crypto-iframe">
+
+                    <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                                aria-selected="true">Performance</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                                aria-selected="false">Return</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                                data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                                aria-selected="false">Converter</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
+                            aria-labelledby="pills-home-tab">
+                            <iframe id="desktop-widget" class="table-width1" src="https://tools.wazirx.com/widgets/past-performance?invite=7cjmq9ns&utm_sou
+                                        rce=bloomberg&utm_medium=tools&utm_campaign=bq-crypto-past-performance"
+                                frameborder="0" scrolling="auto" width="100%" height="500" style="z-index: 4;"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel"
+                            aria-labelledby="pills-profile-tab">
+                            <iframe id="desktop-widget" class="table-width2" src="https://tools.wazirx.com/widgets/crypto-converter?invite=7cjmq9ns&utm_sou
+                             rce=bloomberg&utm_medium=tools&utm_campaign=bq-bitcoin-crypto-converter" height="500px"
+                                width="100%" frameborder="0" scrolling="auto"></iframe>
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel"
+                            aria-labelledby="pills-contact-tab">
+                            <iframe id="desktop-widget" class="table-width3"
+                                src="https://tools.wazirx.com/widgets/crypto-roi?invite=7cjmq9ns&utm_source=bloomberg&utm_medium=tools&utm_campaign=bq-crypto-returns-calculator"
+                                height="500px" width="100%" frameborder="0" scrolling="auto"></iframe>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="pt-5 pb-5" id="wzsection">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-5 ">
+                    <div class="row wzupdates">
+                        <div class="col-md-4 ">
+                            <img src="images/BTC.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-8 mt-4">
+                            <h2>Stay Updated</h2>
+                            <h3>on Top Crypto News</h3>
+                            <a href="" class="btn btn-primary mw-100">Join Group</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-5 offset-md-2 ">
+                    <div class="row wzupdates">
+                        <div class="col-md-4">
+                            <img src="images/BTC.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-8 mt-4">
+                            <h3>Blockchain </h3>
+                            <h2>Research Papers</h2>
+
+                            <a href="" class="btn btn-primary mw-100">Read Now</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="pt-5 pb-4 d-flex justify-content-center d-none d-sm-block"
+        style="background: url(images/appstore.png);background-size: cover;">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-2 offset-md-5 col-4 offset-4 mt-5 pt-3 text-center">
+                    <img src="images/favlogo.png" alt="" class="img-fluid">
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-4 text-center downwz">
+                    <h2>Download WazirX</h2>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-2 offset-md-4 col-6 text-end">
+                    <a href="https://play.google.com/store/apps/details?id=com.wrx.wazirx"><img src="images/google.png"
+                            class="img-fluid"></a>
+                </div>
+                <div class="col-md-2 col-6">
+                    <a href="https://apps.apple.com/in/app/wazirx-bitcoin-exchange/id1349082789"><img
+                            src="images/apple.png" class="img-fluid"></a>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-center d-block d-sm-none"
+        style="background: url(images/mobile-footer-top.png); background-size: cover">
+
+        <div class="container">
+
+
+            <div class="row pb-3 mobilega">
+                <div class="col-6 text-end">
+                    <a href="https://play.google.com/store/apps/details?id=com.wrx.wazirx"><img src="images/google.png"
+                            class="img-fluid"></a>
+                </div>
+                <div class="col-6">
+                    <a href="https://apps.apple.com/in/app/wazirx-bitcoin-exchange/id1349082789"><img
+                            src="images/apple.png" class="img-fluid"></a>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="text-center ">
+        <!-- Grid container -->
+        <div class="container">
+            <!-- Section: Social media -->
+            <div class="row pt-5 question">
+                <div class="col-md-2 col-12">
+                    <img src="images/footer-logo.png" alt="" class="img-fluid d-block d-sm-none bq-wazirx-logo-f">
+                </div>
+                <div class=" col-md-2 col-12">
+                    <a href="#">What is Bitcoin?</a>
+                </div>
+                <div class="col-md-2 col-12">
+                    <a href="#">What are cryptocurrency?</a>
+                </div>
+                <div class="col-md-2 col-12">
+                    <a href="">Beginners Guide to DeFi</a>
+                </div>
+                <div class="col-md-2 col-12">
+                    <a href="#">Beginners Guide to NFT</a>
+                </div>
+                <div class="col-md-2 col-12">
+
+                </div>
+
+            </div>
+
+            <div class="row pt-4 abt">
+
+                <div class="col-md-8 offset-md-2">
+                    <p>The Future of Investing, created by <strong>BloombergQuint Brand Studio</strong> and
+                        <strong>powered by WazirX</strong> will help Indian investors get a head-start on investing
+                        strategies for the New Normal and is aimed at helping investors profit from new asset classes
+                        like cryptocurrency, NFTs, and more.</p>
+                </div>
+
+
+            </div>
+            <hr>
+
+            <div class="row">
+
+                <ul class="list-inline social mb-0">
+                    <li class="list-inline-item me-4">
+                        <a href="https://www.facebook.com/wazirxt" target="_blank"><i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="list-inline-item me-4">
+                        <a href="https://www.linkedin.com/company/wazirx/t" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                    </li>
+
+                    <li class="list-inline-item me-4">
+                        <a href="https://twitter.com/WazirXIndiat" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item me-4">
+                        <a href="https://www.instagram.com/wazirx/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+
+
+            <!-- Copyright -->
+            <div class="text-center copyright p-3">
+                © 2021 Bloomberg Quint All Rights Reserved
+            </div>
+            <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- <script src="js/owl.carousel.js"></script> -->
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('#articles .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                dots: false,
+                autoWidth: false,
+                nav: false,
+                navText: ["<i class='fas fa-angle-left fa-2x'></i>",
+                    "<i class='fas fa-angle-right fa-2x'></i>"
+                ],
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1.6,
+                        dots: true
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+            $('#videos .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                dots: false,
+                nav: false,
+                navText: ["<i class='fas fa-angle-left fa-2x'></i>",
+                    "<i class='fas fa-angle-right fa-2x'></i>"
+                ],
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1.6,
+                        dots: true
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+            $('#podcasts .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+
+                dots: false,
+                navText: ["<i class='fas fa-angle-left fa-2x'></i>",
+                    "<i class='fas fa-angle-right fa-2x'></i>"
+                ],
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1.6,
+                        dots: true
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: false
+                    }
+                }
+            });
+            $('.slider .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                autoplay: true,
+                autoplayTimeout: 6000,
+                autoplayHoverPause: false,
+                dots: false,
+                navText: ["<i class='fas fa-angle-left fa-2x'></i>",
+                    "<i class='fas fa-angle-right fa-2x'></i>"
+                ],
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        dots: true
+                    },
+                    600: {
+                        items: 1
+                    },
+                    1000: {
+                        items: 1,
+                    }
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
